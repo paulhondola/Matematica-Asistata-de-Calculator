@@ -27,7 +27,7 @@ function z = ydot(t, w)
 
 % z = t * w + t ^ 3;
 
-z = 1 / (w ^ 2);
+z = t * w + t ^ 3;
 
 % z = 2 * (t + 1) * w;
 
